@@ -1,0 +1,1136 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "MatterSupport",
+        "printedName": "MatterSupport",
+        "declKind": "Import",
+        "moduleName": "ThingSmartMatterExtensionKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ThingMatterExtensionSupport",
+        "printedName": "ThingMatterExtensionSupport",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ThingMatterExtensionSupport",
+                "printedName": "ThingSmartMatterExtensionKit.ThingMatterExtensionSupport",
+                "usr": "c:@M@ThingSmartMatterExtensionKit@objc(cs)ThingMatterExtensionSupport"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:28ThingSmartMatterExtensionKit0acD7SupportC6sharedACvpZ",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0acD7SupportC6sharedACvpZ",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThingMatterExtensionSupport",
+                    "printedName": "ThingSmartMatterExtensionKit.ThingMatterExtensionSupport",
+                    "usr": "c:@M@ThingSmartMatterExtensionKit@objc(cs)ThingMatterExtensionSupport"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:28ThingSmartMatterExtensionKit0acD7SupportC6sharedACvgZ",
+                "mangledName": "$s28ThingSmartMatterExtensionKit0acD7SupportC6sharedACvgZ",
+                "moduleName": "ThingSmartMatterExtensionKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "service",
+            "printedName": "service",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ThingSmartMatterService",
+                "printedName": "ThingSmartMatterExtensionKit.ThingSmartMatterService",
+                "usr": "c:@M@ThingSmartMatterExtensionKit@objc(cs)ThingSmartMatterService"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:28ThingSmartMatterExtensionKit0acD7SupportC7serviceAA0abC7ServiceCvp",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0acD7SupportC7serviceAA0abC7ServiceCvp",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThingSmartMatterService",
+                    "printedName": "ThingSmartMatterExtensionKit.ThingSmartMatterService",
+                    "usr": "c:@M@ThingSmartMatterExtensionKit@objc(cs)ThingSmartMatterService"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:28ThingSmartMatterExtensionKit0acD7SupportC7serviceAA0abC7ServiceCvg",
+                "mangledName": "$s28ThingSmartMatterExtensionKit0acD7SupportC7serviceAA0abC7ServiceCvg",
+                "moduleName": "ThingSmartMatterExtensionKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setMatterConfigKey",
+            "printedName": "setMatterConfigKey(configKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28ThingSmartMatterExtensionKit0acD7SupportC03setC9ConfigKey06configI0ySS_tF",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0acD7SupportC03setC9ConfigKey06configI0ySS_tF",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validateDeviceCredential",
+            "printedName": "validateDeviceCredential(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceCredential",
+                "printedName": "MatterSupport.MatterAddDeviceExtensionRequestHandler.DeviceCredential",
+                "usr": "s:13MatterSupport0A32AddDeviceExtensionRequestHandlerC0D10CredentialV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28ThingSmartMatterExtensionKit0acD7SupportC24validateDeviceCredentialyy0cF00c3AddhD14RequestHandlerC0hI0VF",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0acD7SupportC24validateDeviceCredentialyy0cF00c3AddhD14RequestHandlerC0hI0VF",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "intro_iOS": "16.1",
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "selectWiFiNetwork",
+            "printedName": "selectWiFiNetwork(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WiFiNetworkAssociation",
+                "printedName": "MatterSupport.MatterAddDeviceExtensionRequestHandler.WiFiNetworkAssociation",
+                "usr": "s:13MatterSupport0A32AddDeviceExtensionRequestHandlerC22WiFiNetworkAssociationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MatterSupport.MatterAddDeviceExtensionRequestHandler.WiFiScanResult]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WiFiScanResult",
+                    "printedName": "MatterSupport.MatterAddDeviceExtensionRequestHandler.WiFiScanResult",
+                    "usr": "s:13MatterSupport0A32AddDeviceExtensionRequestHandlerC14WiFiScanResultV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28ThingSmartMatterExtensionKit0acD7SupportC17selectWiFiNetwork4from0cF00c9AddDeviceD14RequestHandlerC0hiJ11AssociationVSayAH0hI10ScanResultVG_tF",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0acD7SupportC17selectWiFiNetwork4from0cF00c9AddDeviceD14RequestHandlerC0hiJ11AssociationVSayAH0hI10ScanResultVG_tF",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "intro_iOS": "16.1",
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "selectThreadNetwork",
+            "printedName": "selectThreadNetwork(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ThreadNetworkAssociation",
+                "printedName": "MatterSupport.MatterAddDeviceExtensionRequestHandler.ThreadNetworkAssociation",
+                "usr": "s:13MatterSupport0A32AddDeviceExtensionRequestHandlerC24ThreadNetworkAssociationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MatterSupport.MatterAddDeviceExtensionRequestHandler.ThreadScanResult]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThreadScanResult",
+                    "printedName": "MatterSupport.MatterAddDeviceExtensionRequestHandler.ThreadScanResult",
+                    "usr": "s:13MatterSupport0A32AddDeviceExtensionRequestHandlerC16ThreadScanResultV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28ThingSmartMatterExtensionKit0acD7SupportC19selectThreadNetwork4from0cF00c9AddDeviceD14RequestHandlerC0hI11AssociationVSayAH0H10ScanResultVG_tF",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0acD7SupportC19selectThreadNetwork4from0cF00c9AddDeviceD14RequestHandlerC0hI11AssociationVSayAH0H10ScanResultVG_tF",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "intro_iOS": "16.1",
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "commissionDevice",
+            "printedName": "commissionDevice(in:onboardingPayload:commissioningID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MatterSupport.MatterAddDeviceRequest.Home?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Home",
+                    "printedName": "MatterSupport.MatterAddDeviceRequest.Home",
+                    "usr": "s:13MatterSupport0A16AddDeviceRequestV4HomeV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28ThingSmartMatterExtensionKit0acD7SupportC16commissionDevice2in17onboardingPayload15commissioningIDy0cF00c3AddH7RequestV4HomeVSg_SS10Foundation4UUIDVtF",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0acD7SupportC16commissionDevice2in17onboardingPayload15commissioningIDy0cF00c3AddH7RequestV4HomeVSg_SS10Foundation4UUIDVtF",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "intro_iOS": "16.1",
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rooms",
+            "printedName": "rooms(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MatterSupport.MatterAddDeviceRequest.Room]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Room",
+                    "printedName": "MatterSupport.MatterAddDeviceRequest.Room",
+                    "usr": "s:13MatterSupport0A16AddDeviceRequestV4RoomV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MatterSupport.MatterAddDeviceRequest.Home?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Home",
+                    "printedName": "MatterSupport.MatterAddDeviceRequest.Home",
+                    "usr": "s:13MatterSupport0A16AddDeviceRequestV4HomeV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28ThingSmartMatterExtensionKit0acD7SupportC5rooms2inSay0cF00C16AddDeviceRequestV4RoomVGAH4HomeVSg_tF",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0acD7SupportC5rooms2inSay0cF00C16AddDeviceRequestV4RoomVGAH4HomeVSg_tF",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "intro_iOS": "16.1",
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureDevice",
+            "printedName": "configureDevice(named:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MatterSupport.MatterAddDeviceRequest.Room?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Room",
+                    "printedName": "MatterSupport.MatterAddDeviceRequest.Room",
+                    "usr": "s:13MatterSupport0A16AddDeviceRequestV4RoomV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28ThingSmartMatterExtensionKit0acD7SupportC15configureDevice5named2inySS_0cF00c3AddH7RequestV4RoomVSgtF",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0acD7SupportC15configureDevice5named2inySS_0cF00c3AddH7RequestV4RoomVSgtF",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "intro_iOS": "16.1",
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ThingMatterExtensionSupport",
+                "printedName": "ThingSmartMatterExtensionKit.ThingMatterExtensionSupport",
+                "usr": "c:@M@ThingSmartMatterExtensionKit@objc(cs)ThingMatterExtensionSupport"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ThingSmartMatterExtensionKit@objc(cs)ThingMatterExtensionSupport(im)init",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0acD7SupportCACycfc",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ThingSmartMatterExtensionKit@objc(cs)ThingMatterExtensionSupport",
+        "mangledName": "$s28ThingSmartMatterExtensionKit0acD7SupportC",
+        "moduleName": "ThingSmartMatterExtensionKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ThingSmartMatterExtensionKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ThingSmartMatterService",
+        "printedName": "ThingSmartMatterService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setConfigKey",
+            "printedName": "setConfigKey(configKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28ThingSmartMatterExtensionKit0abC7ServiceC12setConfigKey06configI0ySS_tF",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0abC7ServiceC12setConfigKey06configI0ySS_tF",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchWIFIName",
+            "printedName": "fetchWIFIName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28ThingSmartMatterExtensionKit0abC7ServiceC13fetchWIFINameSSSgyF",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0abC7ServiceC13fetchWIFINameSSSgyF",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setExPanId",
+            "printedName": "setExPanId(panId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28ThingSmartMatterExtensionKit0abC7ServiceC10setExPanId03panJ0ySS_tF",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0abC7ServiceC10setExPanId03panJ0ySS_tF",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPayload",
+            "printedName": "setPayload(payload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28ThingSmartMatterExtensionKit0abC7ServiceC10setPayload7payloadySS_tF",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0abC7ServiceC10setPayload7payloadySS_tF",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDeviceName",
+            "printedName": "setDeviceName(deviceName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28ThingSmartMatterExtensionKit0abC7ServiceC13setDeviceName06deviceI0ySS_tF",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0abC7ServiceC13setDeviceName06deviceI0ySS_tF",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setErrorType",
+            "printedName": "setErrorType(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28ThingSmartMatterExtensionKit0abC7ServiceC12setErrorType4typeySi_tF",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0abC7ServiceC12setErrorType4typeySi_tF",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchPanIdList",
+            "printedName": "fetchPanIdList()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28ThingSmartMatterExtensionKit0abC7ServiceC14fetchPanIdListSDyS2SGSgyF",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0abC7ServiceC14fetchPanIdListSDyS2SGSgyF",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchOnlinePanIDList",
+            "printedName": "fetchOnlinePanIDList()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28ThingSmartMatterExtensionKit0abC7ServiceC20fetchOnlinePanIDListSDyS2SGSgyF",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0abC7ServiceC20fetchOnlinePanIDListSDyS2SGSgyF",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFinalPanID",
+            "printedName": "setFinalPanID(panId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:28ThingSmartMatterExtensionKit0abC7ServiceC13setFinalPanID5panIdySS_tF",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0abC7ServiceC13setFinalPanID5panIdySS_tF",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ThingSmartMatterService",
+                "printedName": "ThingSmartMatterExtensionKit.ThingSmartMatterService",
+                "usr": "c:@M@ThingSmartMatterExtensionKit@objc(cs)ThingSmartMatterService"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ThingSmartMatterExtensionKit@objc(cs)ThingSmartMatterService(im)init",
+            "mangledName": "$s28ThingSmartMatterExtensionKit0abC7ServiceCACycfc",
+            "moduleName": "ThingSmartMatterExtensionKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ThingSmartMatterExtensionKit@objc(cs)ThingSmartMatterService",
+        "mangledName": "$s28ThingSmartMatterExtensionKit0abC7ServiceC",
+        "moduleName": "ThingSmartMatterExtensionKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1912,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2098,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2185,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2972,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3000,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3260,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 3503,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3835,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4012,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 4933,
+      "length": 9,
+      "value": "\"Default\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5230,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 5287,
+      "length": 15,
+      "value": "\"[0-9a-f]{1,2}\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5612,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5698,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5895,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5900,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "Array",
+      "offset": 5966,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 6037,
+      "length": 18,
+      "value": "\"0123456789ABCDEF\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 6058,
+      "length": 18,
+      "value": "\"0123456789abcdef\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6256,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6388,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6415,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6442,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6469,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6499,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6542,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "Array",
+      "offset": 6676,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6713,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6812,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Public\/ThingMatterExtensionSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6870,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Service\/ThingSmartMatterService.swift",
+      "kind": "StringLiteral",
+      "offset": 264,
+      "length": 25,
+      "value": "\"matterSupportDeviceName\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Service\/ThingSmartMatterService.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 30,
+      "value": "\"matterSupportCurrentWIFIName\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Service\/ThingSmartMatterService.swift",
+      "kind": "StringLiteral",
+      "offset": 407,
+      "length": 31,
+      "value": "\"matterSupportThreadEXPanIDKey\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Service\/ThingSmartMatterService.swift",
+      "kind": "StringLiteral",
+      "offset": 484,
+      "length": 28,
+      "value": "\"matterSupportDevicePayload\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Service\/ThingSmartMatterService.swift",
+      "kind": "StringLiteral",
+      "offset": 554,
+      "length": 24,
+      "value": "\"matterSupportErrorType\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Service\/ThingSmartMatterService.swift",
+      "kind": "StringLiteral",
+      "offset": 619,
+      "length": 25,
+      "value": "\"matterSupportExpanIdMap\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Service\/ThingSmartMatterService.swift",
+      "kind": "StringLiteral",
+      "offset": 687,
+      "length": 25,
+      "value": "\"matterSupportFinalPanID\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Service\/ThingSmartMatterService.swift",
+      "kind": "StringLiteral",
+      "offset": 756,
+      "length": 24,
+      "value": "\"matterSupportOnlineMap\""
+    },
+    {
+      "filePath": "\/Users\/fengxiao\/jenkins-agent-cloud\/workspace\/Piper2\/Model\/ios_sdk_xcframework_publish\/C8067_ThingSmartMatterExtensionKit\/src\/ThingSmartMatterExtensionKit\/Service\/ThingSmartMatterService.swift",
+      "kind": "StringLiteral",
+      "offset": 828,
+      "length": 29,
+      "value": "\"matterSupportOnlinePANIDMap\""
+    }
+  ]
+}

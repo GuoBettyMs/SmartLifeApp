@@ -1,0 +1,6 @@
+framework module Water {
+  umbrella header "Water.h"
+
+  export *
+  module * { export * }
+}

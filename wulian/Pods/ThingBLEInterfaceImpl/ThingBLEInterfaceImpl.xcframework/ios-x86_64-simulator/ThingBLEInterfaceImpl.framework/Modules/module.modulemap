@@ -1,0 +1,6 @@
+framework module ThingBLEInterfaceImpl {
+  umbrella header "ThingBLEInterfaceImpl-umbrella.h"
+
+  export *
+  module * { export * }
+}

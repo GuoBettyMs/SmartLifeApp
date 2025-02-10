@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Add"; ObjectID = "DQm-4h-1ex"; */
+"DQm-4h-1ex.text" = "Add";
+
+/* Class = "UIBarButtonItem"; title = "Search"; ObjectID = "Lzb-FL-Llg"; */
+"Lzb-FL-Llg.title" = "Search";
+
+/* Class = "UITextField"; placeholder = "ssid"; ObjectID = "ghf-3n-h0D"; */
+"ghf-3n-h0D.placeholder" = "ssid";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "j1E-LC-MNv"; */
+"j1E-LC-MNv.placeholder" = "password";
+
+/* Class = "UINavigationItem"; title = "WiFi Info"; ObjectID = "jt3-FC-zP6"; */
+"jt3-FC-zP6.title" = "WiFi Info";

@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/fengxiao/jenkins-agent-cloud/workspace/Piper2/Model/ios_sdk_xcframework_publish/C8071_tuya-openssl-sdk/src/ci_cache/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/ThingOpenSSLSDK/BuildProductsPath/Release-iphoneos/ThingOpenSSLSDK/ThingOpenSSLSDK.framework/ThingOpenSSLSDK'
+relocations:     []
+...

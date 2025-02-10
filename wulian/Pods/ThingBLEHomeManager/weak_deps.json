@@ -1,0 +1,10 @@
+{
+    "services": {
+        "provider": [],
+        "require": [
+            "ThingFamilyProtocol",
+            "ThingSmartHomeDataProtocol"
+        ],
+        "optional": []
+    }
+}

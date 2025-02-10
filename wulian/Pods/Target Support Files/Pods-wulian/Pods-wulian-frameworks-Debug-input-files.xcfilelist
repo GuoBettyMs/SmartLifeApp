@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-wulian/Pods-wulian-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SGQRCode/SGQRCode.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${PODS_ROOT}/ThingSmartMatterKit/Build/VendorsFramework/ThingMatterSupport.framework
+${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework
+${BUILT_PRODUCTS_DIR}/libextobjc/libextobjc.framework
+${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ThingMbedtls/ThingMbedtls.framework/ThingMbedtls
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ThingOpenSSLSDK/ThingOpenSSLSDK.framework/ThingOpenSSLSDK

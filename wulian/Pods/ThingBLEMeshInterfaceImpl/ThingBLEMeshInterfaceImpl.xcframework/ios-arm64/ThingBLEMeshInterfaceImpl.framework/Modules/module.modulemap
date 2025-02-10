@@ -1,0 +1,6 @@
+framework module ThingBLEMeshInterfaceImpl {
+  umbrella header "ThingBLEMeshInterfaceImpl-umbrella.h"
+
+  export *
+  module * { export * }
+}

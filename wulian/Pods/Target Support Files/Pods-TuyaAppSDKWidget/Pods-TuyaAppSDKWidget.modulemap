@@ -1,0 +1,6 @@
+framework module Pods_TuyaAppSDKWidget {
+  umbrella header "Pods-TuyaAppSDKWidget-umbrella.h"
+
+  export *
+  module * { export * }
+}

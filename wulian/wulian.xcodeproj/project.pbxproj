@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE4749F92D3A0F2C004F76FD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4749F82D3A0F2C004F76FD /* WidgetKit.framework */; };
+		CE4749FB2D3A0F2C004F76FD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4749FA2D3A0F2C004F76FD /* SwiftUI.framework */; };
+		CE474A0C2D3A0F2E004F76FD /* TuyaAppSDKWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CE4749F72D3A0F2B004F76FD /* TuyaAppSDKWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D3CAD14B5E9FEA329351F27E /* Pods_wulian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE7C3266020C168EE471CE5 /* Pods_wulian.framework */; };
+		DBA55559C4834887BA74FDEE /* Pods_TuyaAppSDKWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD271DF4D7E61B88052145BA /* Pods_TuyaAppSDKWidget.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE474A0A2D3A0F2E004F76FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAC46E82D1BDEBA00F59F78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE4749F62D3A0F2B004F76FD;
+			remoteInfo = TuyaAppSDKWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE474A112D3A0F2E004F76FD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CE474A0C2D3A0F2E004F76FD /* TuyaAppSDKWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		261476BCA08B70B1F45E40AE /* Pods-wulian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wulian.debug.xcconfig"; path = "Target Support Files/Pods-wulian/Pods-wulian.debug.xcconfig"; sourceTree = "<group>"; };
+		2FB72FFDD945A7716E7B899E /* Pods-TuyaAppSDKWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaAppSDKWidget.debug.xcconfig"; path = "Target Support Files/Pods-TuyaAppSDKWidget/Pods-TuyaAppSDKWidget.debug.xcconfig"; sourceTree = "<group>"; };
+		3CE7C3266020C168EE471CE5 /* Pods_wulian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wulian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		949C03620C97DC5DDE65D7DA /* Pods-TuyaAppSDKWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaAppSDKWidget.release.xcconfig"; path = "Target Support Files/Pods-TuyaAppSDKWidget/Pods-TuyaAppSDKWidget.release.xcconfig"; sourceTree = "<group>"; };
+		96723E16A9D8977A7004A375 /* Pods-wulian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wulian.release.xcconfig"; path = "Target Support Files/Pods-wulian/Pods-wulian.release.xcconfig"; sourceTree = "<group>"; };
+		BD271DF4D7E61B88052145BA /* Pods_TuyaAppSDKWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuyaAppSDKWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4749F72D3A0F2B004F76FD /* TuyaAppSDKWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TuyaAppSDKWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4749F82D3A0F2C004F76FD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		CE4749FA2D3A0F2C004F76FD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		CE474A122D3A1051004F76FD /* TuyaAppSDKWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TuyaAppSDKWidgetExtension.entitlements; sourceTree = "<group>"; };
+		CEAC46F02D1BDEBA00F59F78 /* wulian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wulian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CE474A102D3A0F2E004F76FD /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CE4749F62D3A0F2B004F76FD /* TuyaAppSDKWidget */;
+		};
+		CE474BED2D3A12AF004F76FD /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppKey.swift,
+			);
+			target = CE4749F62D3A0F2B004F76FD /* TuyaAppSDKWidget */;
+		};
+		CEAC47052D1BDEBC00F59F78 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CEAC46EF2D1BDEBA00F59F78 /* wulian */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CE4749FC2D3A0F2C004F76FD /* TuyaAppSDKWidget */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (CE474A102D3A0F2E004F76FD /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = TuyaAppSDKWidget; sourceTree = "<group>"; };
+		CEAC46F22D1BDEBA00F59F78 /* wulian */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (CEAC47052D1BDEBC00F59F78 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, CE474BED2D3A12AF004F76FD /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = wulian; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE4749F42D3A0F2B004F76FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4749FB2D3A0F2C004F76FD /* SwiftUI.framework in Frameworks */,
+				CE4749F92D3A0F2C004F76FD /* WidgetKit.framework in Frameworks */,
+				DBA55559C4834887BA74FDEE /* Pods_TuyaAppSDKWidget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAC46ED2D1BDEBA00F59F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CAD14B5E9FEA329351F27E /* Pods_wulian.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B3493CDBED7E6EB9B629786 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CE7C3266020C168EE471CE5 /* Pods_wulian.framework */,
+				CE4749F82D3A0F2C004F76FD /* WidgetKit.framework */,
+				CE4749FA2D3A0F2C004F76FD /* SwiftUI.framework */,
+				BD271DF4D7E61B88052145BA /* Pods_TuyaAppSDKWidget.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A097791443E79F6277BECD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				261476BCA08B70B1F45E40AE /* Pods-wulian.debug.xcconfig */,
+				96723E16A9D8977A7004A375 /* Pods-wulian.release.xcconfig */,
+				2FB72FFDD945A7716E7B899E /* Pods-TuyaAppSDKWidget.debug.xcconfig */,
+				949C03620C97DC5DDE65D7DA /* Pods-TuyaAppSDKWidget.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEAC46E72D1BDEBA00F59F78 = {
+			isa = PBXGroup;
+			children = (
+				CE474A122D3A1051004F76FD /* TuyaAppSDKWidgetExtension.entitlements */,
+				CEAC46F22D1BDEBA00F59F78 /* wulian */,
+				CE4749FC2D3A0F2C004F76FD /* TuyaAppSDKWidget */,
+				CEAC46F12D1BDEBA00F59F78 /* Products */,
+				2A097791443E79F6277BECD7 /* Pods */,
+				0B3493CDBED7E6EB9B629786 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEAC46F12D1BDEBA00F59F78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAC46F02D1BDEBA00F59F78 /* wulian.app */,
+				CE4749F72D3A0F2B004F76FD /* TuyaAppSDKWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE4749F62D3A0F2B004F76FD /* TuyaAppSDKWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE474A0D2D3A0F2E004F76FD /* Build configuration list for PBXNativeTarget "TuyaAppSDKWidget" */;
+			buildPhases = (
+				5C25C1C30100C8B9A372E580 /* [CP] Check Pods Manifest.lock */,
+				CE4749F32D3A0F2B004F76FD /* Sources */,
+				CE4749F42D3A0F2B004F76FD /* Frameworks */,
+				CE4749F52D3A0F2B004F76FD /* Resources */,
+				9B5151C6A0B9779390AE4AFA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CE4749FC2D3A0F2C004F76FD /* TuyaAppSDKWidget */,
+			);
+			name = TuyaAppSDKWidget;
+			productName = TuyaAppSDKWidgetExtension;
+			productReference = CE4749F72D3A0F2B004F76FD /* TuyaAppSDKWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CEAC46EF2D1BDEBA00F59F78 /* wulian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAC47062D1BDEBC00F59F78 /* Build configuration list for PBXNativeTarget "wulian" */;
+			buildPhases = (
+				645B8DC1984CC17F0AD773F5 /* [CP] Check Pods Manifest.lock */,
+				CEAC46EC2D1BDEBA00F59F78 /* Sources */,
+				CEAC46ED2D1BDEBA00F59F78 /* Frameworks */,
+				CEAC46EE2D1BDEBA00F59F78 /* Resources */,
+				BD473A5C5557216C4FFEAD69 /* [CP] Embed Pods Frameworks */,
+				2DB958321756B9674B4D1464 /* [CP] Copy Pods Resources */,
+				CE474A112D3A0F2E004F76FD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE474A0B2D3A0F2E004F76FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CEAC46F22D1BDEBA00F59F78 /* wulian */,
+			);
+			name = wulian;
+			productName = wulian;
+			productReference = CEAC46F02D1BDEBA00F59F78 /* wulian.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEAC46E82D1BDEBA00F59F78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					CE4749F62D3A0F2B004F76FD = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					CEAC46EF2D1BDEBA00F59F78 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = CEAC46EB2D1BDEBA00F59F78 /* Build configuration list for PBXProject "wulian" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = CEAC46E72D1BDEBA00F59F78;
+			productRefGroup = CEAC46F12D1BDEBA00F59F78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEAC46EF2D1BDEBA00F59F78 /* wulian */,
+				CE4749F62D3A0F2B004F76FD /* TuyaAppSDKWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE4749F52D3A0F2B004F76FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAC46EE2D1BDEBA00F59F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DB958321756B9674B4D1464 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wulian/Pods-wulian-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wulian/Pods-wulian-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wulian/Pods-wulian-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C25C1C30100C8B9A372E580 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TuyaAppSDKWidget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		645B8DC1984CC17F0AD773F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wulian-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B5151C6A0B9779390AE4AFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaAppSDKWidget/Pods-TuyaAppSDKWidget-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaAppSDKWidget/Pods-TuyaAppSDKWidget-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TuyaAppSDKWidget/Pods-TuyaAppSDKWidget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD473A5C5557216C4FFEAD69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wulian/Pods-wulian-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wulian/Pods-wulian-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wulian/Pods-wulian-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE4749F32D3A0F2B004F76FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAC46EC2D1BDEBA00F59F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE474A0B2D3A0F2E004F76FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE4749F62D3A0F2B004F76FD /* TuyaAppSDKWidget */;
+			targetProxy = CE474A0A2D3A0F2E004F76FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE474A0E2D3A0F2E004F76FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB72FFDD945A7716E7B899E /* Pods-TuyaAppSDKWidget.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TuyaAppSDKWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABPL22F4U4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TuyaAppSDKWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TuyaAppSDKWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.isdt.wulian.TuyaAppSDKWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE474A0F2D3A0F2E004F76FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949C03620C97DC5DDE65D7DA /* Pods-TuyaAppSDKWidget.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TuyaAppSDKWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABPL22F4U4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TuyaAppSDKWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TuyaAppSDKWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.isdt.wulian.TuyaAppSDKWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEAC47072D1BDEBC00F59F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 261476BCA08B70B1F45E40AE /* Pods-wulian.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = wulian/wulian.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABPL22F4U4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wulian/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "For better usage, we will suggest you to give us the permissions to use Bluetooth.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "For better usage, we will suggest you to give us the permissions to use Bluetooth.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "For better usage, we will suggest you to give us the permissions to use your camera";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "For better usage, we will suggest you to give us the permissions to use yourphoto library";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.isdt.wulian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "wulian/TuyaAppSDKSample-iOS-Swift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEAC47082D1BDEBC00F59F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96723E16A9D8977A7004A375 /* Pods-wulian.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = wulian/wulian.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABPL22F4U4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wulian/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "For better usage, we will suggest you to give us the permissions to use Bluetooth.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "For better usage, we will suggest you to give us the permissions to use Bluetooth.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "For better usage, we will suggest you to give us the permissions to use your camera";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "For better usage, we will suggest you to give us the permissions to use yourphoto library";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.isdt.wulian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "wulian/TuyaAppSDKSample-iOS-Swift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEAC47092D1BDEBC00F59F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEAC470A2D1BDEBC00F59F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE474A0D2D3A0F2E004F76FD /* Build configuration list for PBXNativeTarget "TuyaAppSDKWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE474A0E2D3A0F2E004F76FD /* Debug */,
+				CE474A0F2D3A0F2E004F76FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAC46EB2D1BDEBA00F59F78 /* Build configuration list for PBXProject "wulian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAC47092D1BDEBC00F59F78 /* Debug */,
+				CEAC470A2D1BDEBC00F59F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAC47062D1BDEBC00F59F78 /* Build configuration list for PBXNativeTarget "wulian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAC47072D1BDEBC00F59F78 /* Debug */,
+				CEAC47082D1BDEBC00F59F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEAC46E82D1BDEBA00F59F78 /* Project object */;
+}

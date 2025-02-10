@@ -1,0 +1,611 @@
+PODS:
+  - libextobjc (0.6):
+    - libextobjc/EXTADT (= 0.6)
+    - libextobjc/EXTConcreteProtocol (= 0.6)
+    - libextobjc/EXTKeyPathCoding (= 0.6)
+    - libextobjc/EXTNil (= 0.6)
+    - libextobjc/EXTSafeCategory (= 0.6)
+    - libextobjc/EXTScope (= 0.6)
+    - libextobjc/EXTSelectorChecking (= 0.6)
+    - libextobjc/EXTSynthesize (= 0.6)
+    - "libextobjc/NSInvocation+EXT (= 0.6)"
+    - "libextobjc/NSMethodSignature+EXT (= 0.6)"
+    - libextobjc/RuntimeExtensions (= 0.6)
+    - libextobjc/UmbrellaHeader (= 0.6)
+  - libextobjc/EXTADT (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.6):
+    - libextobjc/RuntimeExtensions
+  - "libextobjc/NSInvocation+EXT (0.6)":
+    - libextobjc/RuntimeExtensions
+  - "libextobjc/NSMethodSignature+EXT (0.6)":
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.6)
+  - libextobjc/UmbrellaHeader (0.6)
+  - libwebp (1.3.2):
+    - libwebp/demux (= 1.3.2)
+    - libwebp/mux (= 1.3.2)
+    - libwebp/sharpyuv (= 1.3.2)
+    - libwebp/webp (= 1.3.2)
+  - libwebp/demux (1.3.2):
+    - libwebp/webp
+  - libwebp/mux (1.3.2):
+    - libwebp/demux
+  - libwebp/sharpyuv (1.3.2)
+  - libwebp/webp (1.3.2):
+    - libwebp/sharpyuv
+  - MMKV (101.2.13.2):
+    - MMKVCore (~> 101.2.14)
+  - MMKVCore (101.2.14.1)
+  - SDWebImage (5.20.0):
+    - SDWebImage/Core (= 5.20.0)
+  - SDWebImage/Core (5.20.0)
+  - SGQRCode (4.1.0)
+  - SnapKit (5.6.0)
+  - SVProgressHUD (2.2.5)
+  - ThingAnnotationFoundation (0.5.1):
+    - ThingMachRegister
+  - ThingAPMService (0.3.1)
+  - ThingBLEHomeManager (1.14.1):
+    - ThingBluetoothInterface
+    - ThingFamilyAPI
+    - ThingModuleManager
+    - ThingSmartDeviceKit
+  - ThingBLEInterfaceImpl (0.18.1):
+    - ThingBlockKit
+    - ThingBluetoothInterface
+    - ThingModuleManager
+    - ThingSmartBLEKit
+    - ThingSmartDeviceCoreKit
+    - ThingSmartShareKit
+  - ThingBLEMeshInterfaceImpl (0.3.0):
+    - ThingBluetoothInterface
+    - ThingModuleManager
+    - ThingSmartBaseKit
+    - ThingSmartBLEMeshKit
+    - ThingSmartDeviceCoreKit
+    - ThingSmartUtil
+  - ThingBlockKit (0.3.0)
+  - ThingBluetooth (5.3.3):
+    - ThingSmartUtil (~> 5.13)
+  - ThingBluetoothInterface (1.19.0):
+    - ThingSmartBaseKit
+    - ThingSmartDeviceCoreKit
+    - ThingSmartUtil
+  - ThingBusinessTrackAPI (1.0.1)
+  - ThingConfigHub (1.2.1):
+    - ThingAPMService
+    - ThingBlockKit
+    - ThingFoundationKit
+    - ThingMachRegister
+    - ThingModuleManager
+    - ThingSmartBaseKit
+    - ThingSmartEventPredefined
+    - ThingSmartUtil
+    - YYModel
+  - ThingDeviceBusinessDataKit (1.2.10):
+    - ThingBluetoothInterface
+    - ThingFoundationKit
+    - ThingSmartBaseKit
+    - ThingSmartDeviceCoreKit
+    - ThingSmartShareKit
+    - YYModel
+  - ThingDeviceDetailKit (0.2.2):
+    - ThingBluetoothInterface
+    - ThingDeviceBusinessDataKit
+    - ThingFoundationKit
+    - ThingLogMacro
+    - ThingModuleManager
+    - ThingSmartBaseKit
+    - ThingSmartDeviceCoreKit
+    - ThingSmartMatterInterfaceAPI
+    - ThingSmartShareKit
+    - ThingSmartTimerKit
+    - YYModel
+  - ThingEncryptImage (4.33.0):
+    - libwebp
+    - ThingSmartUtil
+  - ThingFamilyAPI (1.4.0)
+  - ThingFoundationKit (1.23.0):
+    - ThingSmartUtil
+  - ThingGroupHandleSktAPI (1.5.2):
+    - ThingSmartDeviceCoreKit
+    - ThingSmartUtil
+  - ThingGroupManagerKit (1.2.1):
+    - ThingBluetoothInterface
+    - ThingBusinessTrackAPI
+    - ThingConfigHub
+    - ThingDeviceBusinessDataKit
+    - ThingFoundationKit
+    - ThingGroupHandleSktAPI
+    - ThingModuleManager
+    - ThingSmartDeviceCoreKit
+    - ThingSmartShareKit
+  - ThingHomeKitAPI (1.1.2)
+  - ThingKVStorageCoreLibrary (0.2.6):
+    - MMKV
+    - ThingSmartUtil
+  - ThingKVStorageLibrary (1.0.2):
+    - ThingModuleManager
+    - ThingStorageGroupInterface
+  - ThingKVStorageService (0.2.1):
+    - ThingAnnotationFoundation
+    - ThingKVStorageCoreLibrary
+    - ThingSmartBaseKit
+    - ThingStorageGroupInterface
+  - ThingLogMacro (0.3.7)
+  - ThingMachRegister (0.7.0)
+  - ThingMbedtls (3.5.2)
+  - ThingModuleManager (2.14.7):
+    - ThingAnnotationFoundation
+    - ThingFoundationKit
+  - ThingOEMConfig (1.43.2):
+    - libextobjc
+    - ThingEncryptImage
+    - ThingFoundationKit
+    - ThingKVStorageLibrary
+    - ThingMachRegister
+    - ThingSmartBaseKit
+    - YYModel
+  - ThingOpenSSLSDK (1.1.1-w.1)
+  - ThingSmartActivatorCoreKit (5.7.3):
+    - ThingSmartBaseKit (~> 5.0)
+    - ThingSmartDeviceCoreKit (~> 5.0)
+    - ThingSmartPairingCoreKit (~> 5.3)
+    - ThingSmartSocketChannelKit (~> 5.0)
+    - ThingSmartUtil (~> 5.11)
+  - ThingSmartActivatorDiscoveryManager (1.6.0):
+    - ThingBluetoothInterface
+    - ThingHomeKitAPI
+    - ThingModuleManager
+    - ThingSmartActivatorCoreKit
+    - ThingSmartBaseKit
+    - ThingSmartMatterInterfaceAPI
+    - ThingSmartUtil
+    - YYModel
+  - ThingSmartActivatorKit (5.1.5):
+    - ThingSmartActivatorCoreKit (~> 5.2)
+    - ThingSmartDeviceKit (~> 5.0)
+    - YYModel
+  - ThingSmartBaseBLEKit (1.0.0):
+    - ThingSmartUtil (~> 5.12)
+  - ThingSmartBaseKit (5.4.0):
+    - ThingSmartMQTTChannelKit (~> 5.0)
+    - ThingSmartNetworkKit (~> 5.0)
+    - ThingSmartUtil (~> 5.0)
+    - YYModel
+  - ThingSmartBeaconKit (5.0.14):
+    - ThingSmartBaseBLEKit (~> 1.0)
+    - ThingSmartBaseKit (~> 5.0)
+    - ThingSmartBLECoreKit (~> 5.0)
+    - ThingSmartDeviceCoreKit (~> 5.0)
+  - ThingSmartBLECoreKit (5.7.6):
+    - ThingBluetooth (< 10.0, ~> 5.3)
+    - ThingSmartBaseBLEKit (~> 1.0)
+    - ThingSmartUtil (~> 5.13)
+    - YYModel
+  - ThingSmartBLEKit (5.8.1.4):
+    - ThingBluetooth (< 10.0, ~> 5.0)
+    - ThingSmartBaseBLEKit (~> 1.0)
+    - ThingSmartBaseKit (~> 5.0)
+    - ThingSmartBeaconKit (~> 5.0)
+    - ThingSmartBLECoreKit (~> 5.7)
+    - ThingSmartDeviceCoreKit (~> 5.12)
+    - ThingSmartUtil (~> 5.13)
+  - ThingSmartBLEMeshKit (5.8.0):
+    - ThingBluetooth (< 10.0, ~> 5.1)
+    - ThingSmartActivatorCoreKit (~> 5.0)
+    - ThingSmartBaseBLEKit (~> 1.0)
+    - ThingSmartBaseKit (~> 5.0)
+    - ThingSmartDeviceCoreKit (~> 5.10)
+  - ThingSmartBusinessExtensionKit (5.17.0.4):
+    - libextobjc
+    - libextobjc/EXTADT
+    - libextobjc/EXTConcreteProtocol
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTNil
+    - libextobjc/EXTSafeCategory
+    - libextobjc/EXTScope
+    - libextobjc/EXTSelectorChecking
+    - libextobjc/EXTSynthesize
+    - "libextobjc/NSInvocation+EXT"
+    - "libextobjc/NSMethodSignature+EXT"
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+    - libwebp
+    - libwebp/demux
+    - libwebp/mux
+    - libwebp/sharpyuv
+    - libwebp/webp
+    - MMKV (~> 101.2.13.2)
+    - MMKVCore (~> 101.2.14.1)
+    - ThingAnnotationFoundation (= 0.5.1)
+    - ThingAPMService (= 0.3.1)
+    - ThingBlockKit (= 0.3.0)
+    - ThingBluetoothInterface (= 1.19.0)
+    - ThingBusinessTrackAPI (= 1.0.1)
+    - ThingConfigHub (= 1.2.1)
+    - ThingDeviceBusinessDataKit (= 1.2.10)
+    - ThingDeviceDetailKit (= 0.2.2)
+    - ThingEncryptImage (= 4.33.0)
+    - ThingFamilyAPI (= 1.4.0)
+    - ThingFoundationKit (= 1.23.0)
+    - ThingGroupHandleSktAPI (= 1.5.2)
+    - ThingGroupManagerKit (= 1.2.1)
+    - ThingHomeKitAPI (= 1.1.2)
+    - ThingKVStorageCoreLibrary (= 0.2.6)
+    - ThingKVStorageLibrary (= 1.0.2)
+    - ThingKVStorageService (= 0.2.1)
+    - ThingLogMacro (= 0.3.7)
+    - ThingMachRegister (= 0.7.0)
+    - ThingMbedtls (= 3.5.2)
+    - ThingModuleManager (= 2.14.7)
+    - ThingOEMConfig (= 1.43.2)
+    - ThingOpenSSLSDK (~> 1.1.1-w.1)
+    - ThingSmartActivatorCoreKit (= 5.7.3)
+    - ThingSmartActivatorDiscoveryManager (= 1.6.0)
+    - ThingSmartBaseKit (= 5.4.0)
+    - ThingSmartCryption
+    - ThingSmartDeviceCoreKit (= 5.12.2)
+    - ThingSmartDeviceKit (= 5.9.0)
+    - ThingSmartEventPredefined (= 1.3.0)
+    - ThingSmartFamilyBizKit (= 1.10.2)
+    - ThingSmartGroupLink (= 1.4.0)
+    - ThingSmartMatterInterfaceAPI (= 1.6.0)
+    - ThingSmartMessageKit (= 5.6.0)
+    - ThingSmartMQTTChannelKit (= 5.4.0)
+    - ThingSmartNetworkKit (= 5.6.2)
+    - ThingSmartPairingCoreKit (= 5.5.8)
+    - ThingSmartShareKit (= 5.2.0)
+    - ThingSmartSocketChannelKit (= 5.0.9)
+    - ThingSmartTimerKit (= 5.0.0)
+    - ThingSmartUtil (= 5.13.2)
+    - ThingStorageGroupInterface (= 0.2.1)
+    - YYModel
+  - ThingSmartBusinessExtensionKitBLEExtra (5.17.0.4):
+    - ThingAnnotationFoundation (= 0.5.1)
+    - ThingBLEHomeManager (= 1.14.1)
+    - ThingBLEInterfaceImpl (= 0.18.1)
+    - ThingBLEMeshInterfaceImpl (= 0.3.0)
+    - ThingBlockKit (= 0.3.0)
+    - ThingBluetooth (= 5.3.3)
+    - ThingBluetoothInterface (= 1.19.0)
+    - ThingFamilyAPI (= 1.4.0)
+    - ThingFoundationKit (= 1.23.0)
+    - ThingMachRegister (= 0.7.0)
+    - ThingMbedtls (= 3.5.2)
+    - ThingModuleManager (= 2.14.7)
+    - ThingOpenSSLSDK (~> 1.1.1-w.1)
+    - ThingSmartActivatorCoreKit (= 5.7.3)
+    - ThingSmartBaseBLEKit (= 1.0.0)
+    - ThingSmartBaseKit (= 5.4.0)
+    - ThingSmartBeaconKit (= 5.0.14)
+    - ThingSmartBLECoreKit (= 5.7.6)
+    - ThingSmartBLEKit (= 5.8.1.4)
+    - ThingSmartBLEMeshKit (= 5.8.0)
+    - ThingSmartCryption
+    - ThingSmartDeviceCoreKit (= 5.12.2)
+    - ThingSmartDeviceKit (= 5.9.0)
+    - ThingSmartMQTTChannelKit (= 5.4.0)
+    - ThingSmartNetworkKit (= 5.6.2)
+    - ThingSmartPairingCoreKit (= 5.5.8)
+    - ThingSmartShareKit (= 5.2.0)
+    - ThingSmartSocketChannelKit (= 5.0.9)
+    - ThingSmartUtil (= 5.13.2)
+    - YYModel
+  - ThingSmartBusinessExtensionKitMatterExtra (5.17.0.3):
+    - ThingAnnotationFoundation (= 0.5.1)
+    - ThingBlockKit (= 0.3.0)
+    - ThingFoundationKit (= 1.23.0)
+    - ThingKVStorageLibrary (= 1.0.2)
+    - ThingMachRegister (= 0.7.0)
+    - ThingMbedtls (= 3.5.2)
+    - ThingModuleManager (= 2.14.7)
+    - ThingOpenSSLSDK (~> 1.1.1-w.1)
+    - ThingSmartBaseKit (= 5.4.0)
+    - ThingSmartCryption
+    - ThingSmartDeviceCoreKit (= 5.12.2)
+    - ThingSmartMatterInterface (= 1.6.0)
+    - ThingSmartMatterInterfaceAPI (= 1.6.0)
+    - ThingSmartMatterKit (~> 5.17.0.0)
+    - ThingSmartMQTTChannelKit (= 5.4.0)
+    - ThingSmartNetworkKit (= 5.6.2)
+    - ThingSmartSocketChannelKit (= 5.0.9)
+    - ThingSmartUtil (= 5.13.2)
+    - ThingStorageGroupInterface (= 0.2.1)
+    - YYModel
+  - ThingSmartCryption (5.0.0)
+  - ThingSmartDeviceCoreKit (5.12.2):
+    - ThingSmartMQTTChannelKit (~> 5.3)
+    - ThingSmartNetworkKit (~> 5.0)
+    - ThingSmartSocketChannelKit (~> 5.0)
+    - ThingSmartUtil (~> 5.12)
+    - YYModel
+  - ThingSmartDeviceKit (5.9.0):
+    - ThingMachRegister
+    - ThingSmartBaseKit (~> 5.0)
+    - ThingSmartDeviceCoreKit (~> 5.0)
+    - ThingSmartShareKit (~> 5.0)
+    - YYModel
+  - ThingSmartEventPredefined (1.3.0)
+  - ThingSmartFamilyBizKit (1.10.2):
+    - ThingEncryptImage
+    - ThingFoundationKit
+    - ThingKVStorageLibrary
+    - ThingModuleManager
+    - ThingOEMConfig
+    - ThingSmartBaseKit
+    - ThingSmartDeviceKit
+    - ThingStorageGroupInterface
+  - ThingSmartFeedbackKit (5.0.0):
+    - ThingSmartBaseKit (~> 5.0)
+    - YYModel
+  - ThingSmartGroupLink (1.4.0):
+    - ThingFamilyAPI
+    - ThingGroupHandleSktAPI
+    - ThingModuleManager
+    - ThingSmartDeviceKit
+  - ThingSmartHomeKit (5.17.0.4):
+    - ThingBluetooth (= 5.3.3)
+    - ThingMachRegister (= 0.7.0)
+    - ThingMbedtls (= 3.5.2)
+    - ThingOpenSSLSDK (~> 1.1.1-w.1)
+    - ThingSmartActivatorCoreKit (= 5.7.3)
+    - ThingSmartActivatorKit (= 5.1.5)
+    - ThingSmartBaseBLEKit (= 1.0.0)
+    - ThingSmartBaseKit (= 5.4.0)
+    - ThingSmartBeaconKit (= 5.0.14)
+    - ThingSmartBLECoreKit (= 5.7.6)
+    - ThingSmartBLEKit (= 5.8.1.4)
+    - ThingSmartBLEMeshKit (= 5.8.0)
+    - ThingSmartCryption
+    - ThingSmartDeviceCoreKit (= 5.12.2)
+    - ThingSmartDeviceKit (= 5.9.0)
+    - ThingSmartFeedbackKit (= 5.0.0)
+    - ThingSmartMessageKit (= 5.6.0)
+    - ThingSmartMQTTChannelKit (= 5.4.0)
+    - ThingSmartNetworkKit (= 5.6.2)
+    - ThingSmartPairingCoreKit (= 5.5.8)
+    - ThingSmartSceneCoreKit (= 5.12.0)
+    - ThingSmartSceneKit (= 4.0.0)
+    - ThingSmartShareKit (= 5.2.0)
+    - ThingSmartSocketChannelKit (= 5.0.9)
+    - ThingSmartTimerKit (= 5.0.0)
+    - ThingSmartUtil (= 5.13.2)
+    - YYModel
+  - ThingSmartMatterExtensionKit (5.17.0.1)
+  - ThingSmartMatterInterface (1.6.0):
+    - ThingBlockKit
+    - ThingKVStorageLibrary
+    - ThingModuleManager
+    - ThingSmartMatterInterfaceAPI
+    - ThingSmartMatterKit
+    - YYModel
+  - ThingSmartMatterInterfaceAPI (1.6.0):
+    - ThingSmartDeviceCoreKit
+  - ThingSmartMatterKit (5.17.0.3):
+    - ThingMbedtls (= 3.5.2)
+    - ThingOpenSSLSDK (~> 1.1.1-w.1)
+    - ThingSmartBaseKit (= 5.4.0)
+    - ThingSmartCryption
+    - ThingSmartDeviceCoreKit (= 5.12.2)
+    - ThingSmartMQTTChannelKit (= 5.4.0)
+    - ThingSmartNetworkKit (= 5.6.2)
+    - ThingSmartSocketChannelKit (= 5.0.9)
+    - ThingSmartUtil (= 5.13.2)
+    - YYModel
+  - ThingSmartMessageKit (5.6.0):
+    - ThingSmartBaseKit
+    - YYModel
+  - ThingSmartMQTTChannelKit (5.4.0):
+    - ThingSmartUtil (>= 5.0.0)
+  - ThingSmartNetworkKit (5.6.2):
+    - ThingSmartUtil (>= 5.8)
+    - YYModel
+  - ThingSmartPairingCoreKit (5.5.8):
+    - ThingSmartMQTTChannelKit (>= 5.0.0)
+    - ThingSmartSocketChannelKit (>= 5.0.0)
+    - ThingSmartUtil (>= 5.13.0)
+    - YYModel
+  - ThingSmartSceneCoreKit (5.12.0):
+    - ThingSmartBaseKit
+    - ThingSmartDeviceCoreKit
+    - YYModel
+  - ThingSmartSceneKit (4.0.0):
+    - ThingSmartBaseKit
+    - ThingSmartDeviceKit
+    - ThingSmartSceneCoreKit
+  - ThingSmartShareKit (5.2.0):
+    - ThingSmartBaseKit (~> 5.0)
+    - ThingSmartDeviceCoreKit (~> 5.0)
+  - ThingSmartSocketChannelKit (5.0.9):
+    - ThingSmartUtil (>= 5.0.0)
+  - ThingSmartTimerKit (5.0.0):
+    - ThingSmartBaseKit (~> 5.0)
+    - ThingSmartDeviceCoreKit (~> 5.0)
+    - YYModel
+  - ThingSmartUtil (5.13.2):
+    - ThingMbedtls (= 3.5.2)
+    - ThingOpenSSLSDK (~> 1.1.1-t.0)
+  - ThingStorageGroupInterface (0.2.1)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - SDWebImage
+  - SGQRCode (~> 4.1.0)
+  - SnapKit
+  - SVProgressHUD
+  - ThingSmartBusinessExtensionKit (~> 5.17.0)
+  - ThingSmartBusinessExtensionKitBLEExtra
+  - ThingSmartBusinessExtensionKitMatterExtra (~> 5.17.0)
+  - ThingSmartCryption (from `./ios_core_sdk`)
+  - ThingSmartHomeKit (~> 5.17.0)
+  - ThingSmartMatterExtensionKit (~> 5.17.0)
+  - ThingSmartMatterKit (~> 5.17.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs:
+    - libextobjc
+    - libwebp
+    - SDWebImage
+    - SGQRCode
+    - SnapKit
+    - SVProgressHUD
+    - YYModel
+  https://github.com/tuya/tuya-pod-specs.git:
+    - MMKV
+    - MMKVCore
+    - ThingAnnotationFoundation
+    - ThingAPMService
+    - ThingBLEHomeManager
+    - ThingBLEInterfaceImpl
+    - ThingBLEMeshInterfaceImpl
+    - ThingBlockKit
+    - ThingBluetooth
+    - ThingBluetoothInterface
+    - ThingBusinessTrackAPI
+    - ThingConfigHub
+    - ThingDeviceBusinessDataKit
+    - ThingDeviceDetailKit
+    - ThingEncryptImage
+    - ThingFamilyAPI
+    - ThingFoundationKit
+    - ThingGroupHandleSktAPI
+    - ThingGroupManagerKit
+    - ThingHomeKitAPI
+    - ThingKVStorageCoreLibrary
+    - ThingKVStorageLibrary
+    - ThingKVStorageService
+    - ThingLogMacro
+    - ThingMachRegister
+    - ThingMbedtls
+    - ThingModuleManager
+    - ThingOEMConfig
+    - ThingOpenSSLSDK
+    - ThingSmartActivatorCoreKit
+    - ThingSmartActivatorDiscoveryManager
+    - ThingSmartActivatorKit
+    - ThingSmartBaseBLEKit
+    - ThingSmartBaseKit
+    - ThingSmartBeaconKit
+    - ThingSmartBLECoreKit
+    - ThingSmartBLEKit
+    - ThingSmartBLEMeshKit
+    - ThingSmartBusinessExtensionKit
+    - ThingSmartBusinessExtensionKitBLEExtra
+    - ThingSmartBusinessExtensionKitMatterExtra
+    - ThingSmartDeviceCoreKit
+    - ThingSmartDeviceKit
+    - ThingSmartEventPredefined
+    - ThingSmartFamilyBizKit
+    - ThingSmartFeedbackKit
+    - ThingSmartGroupLink
+    - ThingSmartHomeKit
+    - ThingSmartMatterExtensionKit
+    - ThingSmartMatterInterface
+    - ThingSmartMatterInterfaceAPI
+    - ThingSmartMatterKit
+    - ThingSmartMessageKit
+    - ThingSmartMQTTChannelKit
+    - ThingSmartNetworkKit
+    - ThingSmartPairingCoreKit
+    - ThingSmartSceneCoreKit
+    - ThingSmartSceneKit
+    - ThingSmartShareKit
+    - ThingSmartSocketChannelKit
+    - ThingSmartTimerKit
+    - ThingSmartUtil
+    - ThingStorageGroupInterface
+
+EXTERNAL SOURCES:
+  ThingSmartCryption:
+    :path: "./ios_core_sdk"
+
+SPEC CHECKSUMS:
+  libextobjc: aed8b7d2b07f511c1a7ecaacb33ea03e327c69b7
+  libwebp: 1786c9f4ff8a279e4dac1e8f385004d5fc253009
+  MMKV: 1a98e8d019dd06023091ea48b49b7506fee381a8
+  MMKVCore: c24975f7f2532fa96567ae9d2e91bea1256f4a84
+  SDWebImage: 73c6079366fea25fa4bb9640d5fb58f0893facd8
+  SGQRCode: 6ad664d63f38f2842503bc5087812c5a3136d924
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  ThingAnnotationFoundation: c7774051295cf2038e1506a1c2775b7520ab9f75
+  ThingAPMService: bd56ee9a0d44b5a6ab32e83cfb841a8e91f0ae10
+  ThingBLEHomeManager: ebc351d3dfafdcd5d704d8501f07d67c005813ec
+  ThingBLEInterfaceImpl: 6db7f0003b8853337988700a6e59f58920cfff8e
+  ThingBLEMeshInterfaceImpl: 3ac3ff84c3829080dc2e9d1b7911cb370ba8af92
+  ThingBlockKit: f5838a79821f5c5f6c7ddb290c0a0a1509090ffd
+  ThingBluetooth: bdef9570cba0084927cb95625d70c0edb3600d9d
+  ThingBluetoothInterface: c48c745419135429a251b44e6116ed6184f33354
+  ThingBusinessTrackAPI: 5302b55cc83edebae22bde58d7313d3f9aff4450
+  ThingConfigHub: d28347b9f27f2b968e04a25cfb32ed4b5087a5fe
+  ThingDeviceBusinessDataKit: c94c1683ab85b496987765384be83082eb5087bf
+  ThingDeviceDetailKit: 6c87e842a4767f6e548b75a04abe85536e0db906
+  ThingEncryptImage: ade00eae99130c9c856969c30210cb024cadc569
+  ThingFamilyAPI: afbfdf1adc1ac3d7f1686e320570091017112bee
+  ThingFoundationKit: efd15300dbf6563afc3c7d57925e803a754aa02a
+  ThingGroupHandleSktAPI: 6233310df5af08b32b6f0484ffb5dcf293ded70a
+  ThingGroupManagerKit: 4f06fc926e5b0eba70147e27f9f57a6bdeffc261
+  ThingHomeKitAPI: 203c841ed61854531ce3c79b85642a53fe2498cd
+  ThingKVStorageCoreLibrary: aee7634753e653e69e63c78e5319235f14f651fd
+  ThingKVStorageLibrary: bc8c2a625bd5a82f6a5978e9c36193c013b61bfd
+  ThingKVStorageService: 384119c6b89c4008d8d90363c7c303dea476e201
+  ThingLogMacro: 8d17ba3b4fd80a1ff58146f6e77f8be6fd2e5b8d
+  ThingMachRegister: 7764775b0996706a24dd899530ad7807b0b630a7
+  ThingMbedtls: 52721dc4ab458c5bcd4e2d679fc08d1bb716f3a0
+  ThingModuleManager: d45c95adb4e9ec576dbb11e4bc4bb80d38594fe2
+  ThingOEMConfig: ada9aac472369199b7787a9a60b78964e252a551
+  ThingOpenSSLSDK: aa37bcd67d0a5b9b6e451d531a7918f166d55cc4
+  ThingSmartActivatorCoreKit: 5bc5f89cbca30e625d18fd6285c1599d526d1afd
+  ThingSmartActivatorDiscoveryManager: 776c6ffb10388a71e6f215218cf23807b5d57543
+  ThingSmartActivatorKit: 6279c5ded9e69645972d56303cc8969269f6acbc
+  ThingSmartBaseBLEKit: f995a4c5b9598e8918d6b0e289e4d41b1f984620
+  ThingSmartBaseKit: a96ce9107337f6c69af897bcab912634aa7eed03
+  ThingSmartBeaconKit: d528aa4c8f8a0b7fa462dffd870502e2c6231e40
+  ThingSmartBLECoreKit: 0a95c90a3db74f58bddb13a3a716d07268211c34
+  ThingSmartBLEKit: 4f41c3479762cd7fd57ddd158b87f3fa6813a6af
+  ThingSmartBLEMeshKit: fa2b611a3b2c66904e5f3a71562e2ac02eb264c2
+  ThingSmartBusinessExtensionKit: d19a6a7b406d4da784bf2d7ef0c1c99568f8b82d
+  ThingSmartBusinessExtensionKitBLEExtra: 590d21644b92c05bcd6a7e8eb2326c7ae4597354
+  ThingSmartBusinessExtensionKitMatterExtra: de6edbd51b008c0c97d2810c86942cd8ad326bc4
+  ThingSmartCryption: 33906a7bf4d19f26bf90dccde474e2bcba46c21f
+  ThingSmartDeviceCoreKit: f2d832c28611d1694487ee18fa674c29ca9ff2a8
+  ThingSmartDeviceKit: 83ccb8b770d897240462fa7e2d6308d4b75c8a57
+  ThingSmartEventPredefined: fe94600cf5a2beb6640429fcc25d4a6f844d36da
+  ThingSmartFamilyBizKit: a8a7f4d6e0a2277bdc9e11c71b199476200c9f7f
+  ThingSmartFeedbackKit: 519a74a721e746a5574bee9b8f7773a9e4c50efb
+  ThingSmartGroupLink: 24ee5bc9bf6d3a2dc2a7d3ba684a482f34b70ce6
+  ThingSmartHomeKit: a82b1da096685d4bb314e46a67baf0bb2875f511
+  ThingSmartMatterExtensionKit: 1bc60c330f11915d4b0d7fe35346dafdaefa2917
+  ThingSmartMatterInterface: a8af6c2d1454e2e276b52d683e42fe656a1d8e1c
+  ThingSmartMatterInterfaceAPI: 5022f760ace1010f1a6fc82fa7f1298ec9853bbb
+  ThingSmartMatterKit: de71e907a6648145b0300722c3caf34b61be0f78
+  ThingSmartMessageKit: bc98cca751b35e7a744ffbac6b7b3f1fc37af55a
+  ThingSmartMQTTChannelKit: d20d4de176fcfff1b0a02b58d98dfc16104b6285
+  ThingSmartNetworkKit: f72cc74c43f13c09b132eabd80b80047aa0e7a6a
+  ThingSmartPairingCoreKit: 823ff719015dceaf83ddde757a0634f221e69b7a
+  ThingSmartSceneCoreKit: b1675eef32d899023e53cf08c536a6eaf1d25128
+  ThingSmartSceneKit: b03bf2ffc192130c36c87601925ac2b6d4788eab
+  ThingSmartShareKit: d2de364ad1eeb6c2375d5df0d0bf5855acba97a3
+  ThingSmartSocketChannelKit: 85c0b0cf84ea062ebabf4014227fa523781f7a03
+  ThingSmartTimerKit: d9048539872818086467af9d631dea4945d5bc76
+  ThingSmartUtil: dfb1903fe6bf5417b4aa98b16481fc7c4b49c857
+  ThingStorageGroupInterface: 8d2c9e862b37ccb234beefd71b29af74db33e8ad
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: eba3d250f3d02dddc121c27d2e20584c3478a90e
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,4 @@
+framework module ThingMatterSupport {
+  header "ThingMatterSupport-Swift.h"
+  requires objc
+}

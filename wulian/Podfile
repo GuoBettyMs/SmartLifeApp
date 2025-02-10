@@ -1,0 +1,52 @@
+source 'https://github.com/CocoaPods/Specs'
+source 'https://github.com/tuya/tuya-pod-specs.git'
+platform :ios, '11.0'
+
+target 'wulian' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_modular_headers!
+  use_frameworks!
+
+  # Pods for wulian
+    # 添加涂鸦智能生活 App SDK,只要引入 ThingSmartHomeKit 则必须同时引入 ThingSmartCryption
+    pod 'ThingSmartHomeKit', '~> 5.17.0'
+    pod "ThingSmartCryption", :path =>'./ios_core_sdk'
+    pod 'ThingSmartBusinessExtensionKit', '~> 5.17.0'
+    
+    # 蓝牙实现层
+    pod 'ThingSmartBusinessExtensionKitBLEExtra'
+    
+    #  Matter
+    pod 'ThingSmartMatterKit', '~> 5.17.0'
+    pod 'ThingSmartMatterExtensionKit', '~> 5.17.0'
+    pod 'ThingSmartBusinessExtensionKitMatterExtra','~> 5.17.0'
+    
+    pod 'SnapKit'
+    pod 'SVProgressHUD' #进度指示库
+    pod 'SGQRCode', '~> 4.1.0' #条形码和二维码
+end
+
+
+target 'TuyaAppSDKWidget' do
+  use_frameworks!
+  
+    # 所有扩展程序 target ，只要引入 ThingSmartHomeKit 则必须同时引入 ThingSmartCryption
+    pod "ThingSmartCryption", :path =>'./ios_core_sdk'
+    pod "ThingSmartHomeKit", '~> 5.17.0'
+
+    # ThingSmartBusinessExtensionKit 不仅包含了 ThingSmartHomeKit 的所有功能，还提供了更多便捷的扩展能力。
+    pod "ThingSmartBusinessExtensionKit", '~> 5.17.0'
+    
+    
+    pod 'SDWebImage'
+    
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['APPLICATION_EXTENSION_API_ONLY'] = 'NO'
+        end
+    end
+end
+

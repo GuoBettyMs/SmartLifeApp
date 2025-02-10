@@ -1,0 +1,10 @@
+{
+    "services": {
+        "provider": [
+            "ThingKVStorageProtocol",
+            "ThingGroupKVStorageProtocol"
+        ],
+        "require": [],
+        "optional": []
+    }
+}

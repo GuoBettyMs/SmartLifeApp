@@ -1,0 +1,493 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ThingMatterSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Matter",
+        "printedName": "Matter",
+        "declKind": "Import",
+        "moduleName": "ThingMatterSupport"
+      },
+      {
+        "kind": "Import",
+        "name": "MatterSupport",
+        "printedName": "MatterSupport",
+        "declKind": "Import",
+        "moduleName": "ThingMatterSupport"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ThingSmartMatterSupport",
+        "printedName": "ThingSmartMatterSupport",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ThingSmartMatterSupport",
+                "printedName": "ThingMatterSupport.ThingSmartMatterSupport",
+                "usr": "c:@M@ThingMatterSupport@objc(cs)ThingSmartMatterSupport"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ThingMatterSupport@objc(cs)ThingSmartMatterSupport(cpy)shared",
+            "mangledName": "$s18ThingMatterSupport0a5SmartbC0C6sharedACvpZ",
+            "moduleName": "ThingMatterSupport",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThingSmartMatterSupport",
+                    "printedName": "ThingMatterSupport.ThingSmartMatterSupport",
+                    "usr": "c:@M@ThingMatterSupport@objc(cs)ThingSmartMatterSupport"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ThingMatterSupport@objc(cs)ThingSmartMatterSupport(cm)shared",
+                "mangledName": "$s18ThingMatterSupport0a5SmartbC0C6sharedACvgZ",
+                "moduleName": "ThingMatterSupport",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "generatePayload",
+            "printedName": "generatePayload(onboardingString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Matter.MTRSetupPayload?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTRSetupPayload",
+                    "printedName": "Matter.MTRSetupPayload",
+                    "usr": "c:objc(cs)MTRSetupPayload"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ThingMatterSupport@objc(cs)ThingSmartMatterSupport(im)generatePayloadWithOnboardingString:",
+            "mangledName": "$s18ThingMatterSupport0a5SmartbC0C15generatePayload16onboardingStringSo08MTRSetupF0CSgSS_tF",
+            "moduleName": "ThingMatterSupport",
+            "objc_name": "generatePayloadWithOnboardingString:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startMatterPair",
+            "printedName": "startMatterPair(ecoName:homeName:payloadString:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ThingMatterSupport@objc(cs)ThingSmartMatterSupport(im)startMatterPairWithEcoName:homeName:payloadString:completion:",
+            "mangledName": "$s18ThingMatterSupport0a5SmartbC0C05startB4Pair7ecoName04homeH013payloadString10completionySS_SaySSGSSys5Error_pSgctF",
+            "moduleName": "ThingMatterSupport",
+            "objc_name": "startMatterPairWithEcoName:homeName:payloadString:completion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ThingSmartMatterSupport",
+                "printedName": "ThingMatterSupport.ThingSmartMatterSupport",
+                "usr": "c:@M@ThingMatterSupport@objc(cs)ThingSmartMatterSupport"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ThingMatterSupport@objc(cs)ThingSmartMatterSupport(im)init",
+            "mangledName": "$s18ThingMatterSupport0a5SmartbC0CACycfc",
+            "moduleName": "ThingMatterSupport",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ThingMatterSupport@objc(cs)ThingSmartMatterSupport",
+        "mangledName": "$s18ThingMatterSupport0a5SmartbC0C",
+        "moduleName": "ThingMatterSupport",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 920,
+      "length": 20,
+      "value": "\"iOS 16.1 available\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "Array",
+      "offset": 998,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 1444,
+      "length": 20,
+      "value": "\"iOS 16.4 available\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1613,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 1730,
+      "length": 13,
+      "value": "\"try perform\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 1842,
+      "length": 31,
+      "value": "\"Successfully set up a device!\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 2003,
+      "length": 48,
+      "value": "\"Failed to set up a device with error: \""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 2050,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 2408,
+      "length": 13,
+      "value": "\"try perform\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 2520,
+      "length": 31,
+      "value": "\"Successfully set up a device!\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 2681,
+      "length": 48,
+      "value": "\"Failed to set up a device with error: \""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 2728,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 2927,
+      "length": 27,
+      "value": "\"com.thing.smart.matterKit\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2962,
+      "length": 4,
+      "value": "4004"
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 3184,
+      "length": 7,
+      "value": "\"level\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3195,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 3212,
+      "length": 8,
+      "value": "\"module\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 3224,
+      "length": 21,
+      "value": "\"ThingSmartMatterKit\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 3261,
+      "length": 6,
+      "value": "\"file\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 3271,
+      "length": 15,
+      "value": "\"MatterSupport\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 3302,
+      "length": 6,
+      "value": "\"func\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 3312,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 3330,
+      "length": 6,
+      "value": "\"line\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3340,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 3358,
+      "length": 7,
+      "value": "\"isSDK\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3369,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 3386,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/shenwei\/ThingSmartMatterSupportKit\/ThingMatterSupport\/ThingSmartMatterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 3479,
+      "length": 27,
+      "value": "\"ThingSmartLogNotification\""
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ThingSmartMatterExtensionKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import MatterSupport
+import Swift
+@_exported import ThingSmartMatterExtensionKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers public class ThingMatterExtensionSupport : ObjectiveC.NSObject {
+  public static let shared: ThingSmartMatterExtensionKit.ThingMatterExtensionSupport
+  final public let service: ThingSmartMatterExtensionKit.ThingSmartMatterService
+  public func setMatterConfigKey(configKey: Swift.String)
+  @available(iOS 16.1, *)
+  public func validateDeviceCredential(_ deviceCredential: MatterSupport.MatterAddDeviceExtensionRequestHandler.DeviceCredential)
+  @available(iOS 16.1, *)
+  public func selectWiFiNetwork(from wifiScanResults: [MatterSupport.MatterAddDeviceExtensionRequestHandler.WiFiScanResult]) -> MatterSupport.MatterAddDeviceExtensionRequestHandler.WiFiNetworkAssociation
+  @available(iOS 16.1, *)
+  public func selectThreadNetwork(from threadScanResults: [MatterSupport.MatterAddDeviceExtensionRequestHandler.ThreadScanResult]) -> MatterSupport.MatterAddDeviceExtensionRequestHandler.ThreadNetworkAssociation
+  @available(iOS 16.1, *)
+  public func commissionDevice(in home: MatterSupport.MatterAddDeviceRequest.Home?, onboardingPayload: Swift.String, commissioningID: Foundation.UUID)
+  @available(iOS 16.1, *)
+  public func rooms(in home: MatterSupport.MatterAddDeviceRequest.Home?) -> [MatterSupport.MatterAddDeviceRequest.Room]
+  @available(iOS 16.1, *)
+  public func configureDevice(named name: Swift.String, in room: MatterSupport.MatterAddDeviceRequest.Room?)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class ThingSmartMatterService : ObjectiveC.NSObject {
+  public func setConfigKey(configKey: Swift.String)
+  public func fetchWIFIName() -> Swift.String?
+  public func setExPanId(panId: Swift.String)
+  public func setPayload(payload: Swift.String)
+  public func setDeviceName(deviceName: Swift.String)
+  public func setErrorType(type: Swift.Int)
+  public func fetchPanIdList() -> [Swift.String : Swift.String]?
+  public func fetchOnlinePanIDList() -> [Swift.String : Swift.String]?
+  public func setFinalPanID(panId: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}

@@ -1,0 +1,19 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ThingMatterSupport
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Matter
+import MatterSupport
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public typealias ThingSmartMatterPairCompletion = (_ result: (any Swift.Error)?) -> Swift.Void
+@_inheritsConvenienceInitializers @objc public class ThingSmartMatterSupport : ObjectiveC.NSObject {
+  @objc public static let shared: ThingMatterSupport.ThingSmartMatterSupport
+  @objc public func generatePayload(onboardingString: Swift.String) -> Matter.MTRSetupPayload?
+  @objc public func startMatterPair(ecoName: Swift.String, homeName: [Swift.String], payloadString: Swift.String, completion: @escaping ThingMatterSupport.ThingSmartMatterPairCompletion)
+  @objc override dynamic public init()
+  @objc deinit
+}
